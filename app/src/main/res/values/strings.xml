@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Robot Controller</string>
+    <string name="forward_text">Forward</string>
+    <string name="backward_text">Backwards</string>
+    <string name="left_text">Left</string>
+    <string name="right_text">Right</string>
+    <string name="connection_text">Connect</string>
+    <string name="connection_strength_default">Connection Strength</string>
+    <string name="connection_status_default">Connection Status</string>
+    <string name="first_led_text">Red LED</string>
+    <string name="second_led_text">Green LED</string>
+    <string name="message_text_default">Message Text</string>
+    <string name="connection_discovery">Connection initiated, starting discovery</string>
+    <string name="connection_connecting">Mobile Hub found, connecting to Mobile Hub</string>
+    <string name="connection_exception">Unexpected IO Exception</string>
+    <string name="connection_successful">Connected to Mobile Hub</string>
+
+    <string name="first_led_command_success">Toggle First LED\nCommand Sent</string>
+    <string name="first_led_command_failure">Toggle First LED\nConnection not created\nCommand rejected</string>
+    <string name="second_led_command_success">Toggle Second LED\nCommand Sent</string>
+    <string name="second_led_command_failure">Toggle Second LED\nConnection not created\nCommand rejected</string>
+    <string name="message_connection_success">Connection Started</string>
+    <string name="message_exception">Unexpected Exception</string>
+    <string name="connection_not_found">Mobile Hub was not found</string>
+    <string name="connection_closed">No Connection</string>
+    <string name="signal_strength_prompt">Signal Strength: </string>
+
+</resources>

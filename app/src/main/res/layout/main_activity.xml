@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/forward_button"
+        style="?attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/control_button"
+        android:text="@string/forward_text"
+        tools:text="@string/forward_text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/left_button"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/control_button"
+            android:layout_weight="1"
+            android:text="@string/left_text"
+            tools:text="@string/left_text" />
+
+        <Button
+            android:id="@+id/right_button"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/control_button"
+            android:layout_weight="1"
+            android:text="@string/right_text"
+            tools:text="@string/right_text" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/backwards_button"
+        style="?attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/control_button"
+        android:text="@string/backward_text"
+        tools:text="@string/backward_text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/first_led_button"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/first_led_text" />
+
+        <Button
+            android:id="@+id/second_led_button"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/second_led_text" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/connection_status_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connection_status_default"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:text="@string/connection_status_default" />
+
+    <TextView
+        android:id="@+id/connection_strength_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connection_strength_default"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:text="@string/connection_strength_default" />
+
+    <Button
+        android:id="@+id/connect_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connection_text"
+        tools:text="@string/connection_text" />
+
+    <TextView
+        android:id="@+id/message_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/message_text_default"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+</LinearLayout>
